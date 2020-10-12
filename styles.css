@@ -118,3 +118,14 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+.dustbin{
+  width: 20px;
+  float: right;
+  position: relative;
+  top:-35px;
+  right: 20px;
+}
+.dustbin:hover{
+  cursor: pointer;
+}
