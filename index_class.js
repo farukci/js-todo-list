@@ -25,6 +25,7 @@ class TodoList {
       id: this.idCreater(),
       todoText: todoText,
       isDone: false,
+      index: todoList.length,
     };
     todoList.push(todoObject);
     this.display();
