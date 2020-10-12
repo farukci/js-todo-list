@@ -1,9 +1,4 @@
-/*
- * 1) TODO'ya tekrar basılınca, todo durumu eski haline gelsin
- *    İpucu (Tek bir satırda değişiklik yapılacak)
- *
- * 2) Todo silme operasyonu
- **/
+// TODO
 
 const todoList = [];
 class TodoList {
@@ -100,4 +95,3 @@ document.querySelector("#todo_button").addEventListener("click", function () {
   inputElement.value="";
   inputElement.focus();
 });
-
